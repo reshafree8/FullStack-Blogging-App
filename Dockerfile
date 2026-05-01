@@ -4,7 +4,7 @@ EXPOSE 8080
  
 ENV APP_HOME /usr/src/app
 
-COPY target/twitter-app-0.0.9.jar app.jar
+COPY target/twitter-app-*.jar app.jar
 
 WORKDIR $APP_HOME
 
